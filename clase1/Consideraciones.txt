@@ -1,0 +1,33 @@
+Java Programación
+-----------------
+
+Requisitos:
+    Deseable que sepan algún lenguaje de programavción
+    o haber llevado algún curso de algoritmos.
+
+    Hardw:
+    PC/Laptop i3/AMD compatible de 8GB de memoria
+    con 1GB de espacio disponible.
+
+    Softw:
+    Windows 7,8,10,11 (64 bits), recomendable
+    la versión profesional.
+
+Asistencia
+----------
+    Obligatoria al 75% de las sesiones
+    Sábados 08-13:30hrs
+
+Calificación
+------------
+    Certificado                          14 Nota final
+    --------------------------------------------------
+    Asistencia                           11 puntos x clase
+    Participaciones (en clase)           +1, +2, +4, ... x clase
+    --------------------------------------------------
+                                         Promedio                    
+    Examen final (ultimas 3 hrs-Clase4)  1 - 20 ptos
+    --------------------------------------------------
+    Nota final                           (Examen Final + Promedio) / 2
+
+    
