@@ -1,0 +1,112 @@
+// Datos simples
+int, float, char, boolean, String,....
+
+int edad,
+float precio,
+String nombre,
+...
+
+// Datos compuestos (estructuras struct, record)
+Producto de farmacia
+Producto de vestimenta
+Paciente
+Alumno
+
+
+
+POO
+---
+
+Clases - Clasificación/Generalización                       Objetos - Especificación
+-------------------------------------                       ------------------------
+Estructura que se usa para representar                      Para representar objetos (existentes)
+algo del mundo real.                                        del mundo real
+
+
+Sistema para gestionar educación
+
+Levantamiento de información
+----------------------------
+Alumno                                                      Angie
+   // atributos
+   codigo alumno                                               12345
+   apellidos                                                   Tello
+   nombres                                                     Angie
+   DNI                                                         10203040
+   especialidad                                                Ing. de Sistemas
+   fecha nacimiento                                            10/10/2000 
+   fecha de inscripción                                        05/11/2023
+   año de estudios                                             4
+   // funcionalidades (metodos/operaciones)
+   // funcionalidades generales
+   registrarAlumno() // crearAlumno()                          
+   buscarAlunno()
+   modificarAlumno()
+   eliminarAlumno()
+
+   // funcionalidades del negocio
+   obtenerAñoEstudios()
+   obtenerAntiguedadAlumno()
+   obtenerEstadoAlumno()
+   ...
+
+Profesor
+
+Practica: definir y probar la clase Curso
+
+Curso
+   // atributos
+   codigo curso
+   nombre curso
+   fecha de inicio
+
+   // metodos
+   registrarCurso()
+   mostrar()  // mostrar valores de atributos del curso
+   modificarFechaInicio(String nuevaFecha)
+   
+   
+Horario
+   cod horario
+   curso
+   dia
+   hora inicio
+   hora final
+   profesor
+   aula
+
+Administrativo
+  ...
+  perfil  // Conserje, secretaria, asistente, ...
+  ... 
+
+Especialidad
+
+Calificación
+
+Costo
+
+
+Acceso:
+
+-private (privado) Solo para uso de la propia clase. Su fin es proteger la data
++public (publico) Otras clases pueden acceder al atributo o método
+#protected (protegido) Los accesos se restringen solamente a las clases hijas, es inaccesible para otras clases.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
