@@ -9,13 +9,15 @@ public class Cliente {
     private double capacidad_compra;
     private String domicilio;
     private String email;
+    protected int año_inscrip;
 
     public Cliente(String nombre, double capacidad_compra, 
-                   String domicilio, String email) {
+                   String domicilio, String email, int año_inscrip) {
         this.nombre = nombre;
         this.capacidad_compra = capacidad_compra;
         this.domicilio = domicilio;
         this.email = email;
+        this.año_inscrip = año_inscrip;
     }
     
     public Cliente(String nombre, double capacidad_compra) {
@@ -23,6 +25,7 @@ public class Cliente {
         this.capacidad_compra = capacidad_compra;
         this.domicilio = "SIN DATO";
         this.email = "SIN DATO";
+        this.año_inscrip = 0;
     }
 
     public String getNombre() {
@@ -59,8 +62,7 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente{" + "nombre=" + nombre + ", capacidad_compra=" + capacidad_compra + ", domicilio=" + domicilio + ", email=" + email + '}';
+        return "Cliente{" + "nombre=" + nombre + ", capacidad_compra=" + capacidad_compra + ", domicilio=" + domicilio + ", email=" + email + ", a\u00f1o_inscrip=" + año_inscrip + '}';
     }
-   
-    
+
 }
