@@ -1,0 +1,24 @@
+                Ejercicio
+                ---------
+
+   Practica calificada: 9ptos si todo bién.
+   Subir a github máximo a las 1:30pm
+   del 22/02/2025. (de acceso público)
+   Enviar por whatsapp la dirección de
+   github publicada.
+
+   Implementar la clase base Producto, 
+   considere los atributos convenientes.
+   A partir de Producto crear las clases
+   ProductoFarmacia (producto de farmacia),
+   ProductoFerreteria (de ferretería) y
+   PlatoRestaurant (producto de restaurante).
+
+   Crear los constructores, getters, setters
+   y toString según convenga.
+
+   Crear una clase Test para probar los
+   objetos de ProductoFarmacia,
+   ProductoFerreteria y PlatoRestaurant.
+   
+
