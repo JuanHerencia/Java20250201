@@ -12,10 +12,11 @@ public class TarjetaCredito extends FormaPago {
     private int cantCuotas;
     private String nro_tarjeta;
     
-    public TarjetaCredito() {
+    public TarjetaCredito(double monto) {
         super("Tarjeta de crédito");
         cantCuotas = 1;
         nro_tarjeta = "";
+        this.monto = monto;
     }
 
     public int getCantCuotas() {

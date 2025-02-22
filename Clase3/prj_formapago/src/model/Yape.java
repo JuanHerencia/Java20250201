@@ -6,9 +6,10 @@ package model;
  */
 public class Yape extends FormaPago {
     private String nro_telefono;
-    public Yape() {
+    public Yape(double monto) {
         super("Pago por Yape");
         nro_telefono = "";
+        this.monto = monto;
     }
 
     public String getNro_telefono() {

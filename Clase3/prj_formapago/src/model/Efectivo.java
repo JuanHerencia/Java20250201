@@ -7,9 +7,10 @@ package model;
 public class Efectivo extends FormaPago {
     private String tipoMoneda; // soles o dólares
     
-    public Efectivo() {
+    public Efectivo(double monto) {
         super("Pago en efectivo");
         tipoMoneda = "Soles";
+        this.monto = monto;
     }
 
     public String getTipoMoneda() {
