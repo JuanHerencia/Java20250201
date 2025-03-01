@@ -1,0 +1,34 @@
+                      Examen Final
+                      ------------
+
+----------------------------------------------
+Plazo       : 12:40hrs
+Se revisará en clase.
+Subir su solución a github antes de las 13hrs
+y enviar el enlace al grupo de whatsapp
+----------------------------------------------
+
+Crear las siguientes clases
+Persona
+  dni     : texto
+  nombres : texto
+
+Conductor que proviene de Persona
+  nro_lic : texto
+
+Pasajero que proviene de Persona
+  cod_pasajero : texto
+
+Viaje
+  cod_viaje : texto 
+  origen    : Texto
+  destino   : Texto
+  pasajero  : Pasajero
+  conductor : Conductor
+
+Aumentar los atributos a las clases si es que se requieren,
+todas las clases deben tener constructores, getters, setters,
+toString().
+
+Probar todos los objetos de todas las clases en una clase
+llamada Test1.
